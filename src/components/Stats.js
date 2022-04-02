@@ -55,7 +55,7 @@ function Stats(props) {
                 <div className="custom-container py-7" ref={el => {aboutelment = el}}>
                     <Grid container spacing={40}>
                         <Grid item xs={12} sm={6} style={{ "display" : "flex", "align-self": "center", "justifyContent" : "start" }} >
-                            <img src="../images/3.png" alt="nft" style={{ "position" : "absolute", "width" : "auto", "height" : "25rem", "bottom" : "0" }} className={classes.imagebreakpoint}/>
+                            <img src="../images/about.png" alt="nft" style={{ "position" : "absolute", "width" : "auto", "height" : "25rem", "bottom" : "0" }} className={classes.imagebreakpoint}/>
                         </Grid>
                     </Grid>
                 </div>
