@@ -71,4 +71,4 @@ function Stats(props) {
     )
 }
 
-export default withStyles(styles)(About)
+export default withStyles(styles)(Stats)
