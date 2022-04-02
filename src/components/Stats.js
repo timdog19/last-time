@@ -57,14 +57,6 @@ function Stats(props) {
                         <Grid item xs={12} sm={6} style={{ "display" : "flex", "align-self": "center", "justifyContent" : "start" }} >
                             <img src="../images/3.png" alt="nft" style={{ "position" : "absolute", "width" : "auto", "height" : "25rem", "bottom" : "0" }} className={classes.imagebreakpoint}/>
                         </Grid>
-                        <Grid item xs={12} sm={6}>
-                            <Typography variant="h3" className={classes.grow} >
-                                ABOUT US
-                            </Typography>
-                            <div style={{ "margin-top": "1rem", "text-transform": "uppercase" }}><Typography variant="body1" className={classes.grow}>
-                                We are a small group of software and game developers that decided to create a special NFT for the best P2E Game, "SneakPunks". Get it now to join the SneakPunks and get access to our upcoming game.
-                            </Typography></div>
-                        </Grid>
                     </Grid>
                 </div>
             </div>
