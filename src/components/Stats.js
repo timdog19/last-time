@@ -27,7 +27,7 @@ const styles = theme => ({
     }
   });
 
-function About(props) {
+function Stats(props) {
     const { classes } = props;
 
     
@@ -51,7 +51,7 @@ function About(props) {
     }, [])
 
     return (
-        <div id="About" className="wrapper" style={{"position": "relative"}}>
+        <div id="Stats" className="wrapper" style={{"position": "relative"}}>
                 <div className="custom-container py-7" ref={el => {aboutelment = el}}>
                     <Grid container spacing={40}>
                         <Grid item xs={12} sm={6} style={{ "display" : "flex", "align-self": "center", "justifyContent" : "start" }} >
